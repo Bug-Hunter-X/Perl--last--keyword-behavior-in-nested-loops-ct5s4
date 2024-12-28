@@ -1,0 +1,1 @@
+my @array = (1..10); foreach my $i (@array) { if ($i == 5) { print "Exiting loop at i = $i\n"; last; } print "$i\n"; }
